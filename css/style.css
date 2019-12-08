@@ -1,0 +1,141 @@
+*{
+  /* by default every thing have a margin of 8 so we use this property to remove it */
+  margin: 0;
+  padding: 0;
+
+}
+
+.header{
+    background-image: url('../images/nav-background.jpg');
+    min-height: 380px;
+
+    /* to center the image nicely */
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    position: relative;
+   
+}
+
+
+.top-nav{
+  width: 100%;
+  background-color:rgba(0, 0, 0,0.6);
+  position: fixed;
+  top: 0;
+
+}
+.the-navigation{
+  position: relative;
+  left: 40%;
+  /* top: 0; */
+}
+.top-nav a{
+
+  float: left;
+  color: white;
+  padding: 15px;
+  text-decoration: none; /*to remove the underlin from the links*/
+}
+
+.top-nav a:hover{
+  background-color: white;
+  color: #444444;
+}
+
+
+.our-service{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.our-blog{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+
+}
+
+
+
+.gallery{
+  
+  /* margin: 5px; */
+  border: 1px solid rgb(196, 201, 194);
+  border-radius: 10px;
+  float: left;
+  width: 250px;
+  margin-left: 65px;
+  margin-right: 65px;
+
+  
+}
+
+.gallery img{
+  width: 100%;
+  border-top-right-radius: 10px ;
+  border-top-left-radius: 10px;
+
+  
+  /* height: auto;  */
+}
+
+
+.imag1{
+  float: left;
+}
+.imag2{
+  float:right;
+}
+.clear{
+  clear: right;
+}
+.blog-left{
+
+  /* border: 1px solid rgb(196, 201, 194); */
+  /* border-radius: 10px; */
+  float: left;
+  width: 40%;
+  margin-left: 65px;
+  margin-right: 65px;
+
+
+
+}
+.blog-right{
+
+  /* border: 1px solid rgb(196, 201, 194); */
+  /* border-radius: 10px; */
+  float: right;
+  width: 40%;
+  margin-left: 65px;
+  margin-right: 65px;
+
+
+
+}
+.center{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: solid 10px rgb(32, 32, 31);
+  background-color: darkgrey;
+
+}
+
+
+
